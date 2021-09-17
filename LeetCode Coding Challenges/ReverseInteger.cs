@@ -32,6 +32,7 @@ Output: 0*/
         {
             StringBuilder sb = new StringBuilder();
             string str = x.ToString();
+            string newStr;
 
             bool negativeNumber;
             if (str[0] == '-')
@@ -52,16 +53,21 @@ Output: 0*/
                 sb.Append(charArray[i]);
             }
 
-
+            newStr = sb.ToString();
+            if (newStr.Length >= 2) {
+                if (newStr[0]=='0') {
+                    newStr = newStr.Substring(1);
+                }
+            }
 
 
             if (negativeNumber)
             {
-                Console.WriteLine(-Int32.Parse(sb.ToString()));
+                Console.WriteLine(-Int32.Parse(newStr));
 
             }
             else {
-                Console.WriteLine(Int32.Parse(sb.ToString()));
+                Console.WriteLine(Int32.Parse(newStr));
 
             }
 

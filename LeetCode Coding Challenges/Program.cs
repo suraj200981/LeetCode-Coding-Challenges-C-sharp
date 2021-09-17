@@ -9,8 +9,12 @@ namespace LeetCode_Coding_Challenges
         {
 
             var testInstance = new ReverseInteger();
+           // testInstance.Reverse(123);
             testInstance.Reverse(-123);
-            
+            testInstance.Reverse(120);
+            testInstance.Reverse(0);
+
+
 
         }
     }
