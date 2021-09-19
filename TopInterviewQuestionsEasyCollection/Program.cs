@@ -7,6 +7,8 @@ namespace TopInterviewQuestionsEasyCollection
         static void Main(string[] args)
         {
             Console.WriteLine("This is a test");
+            Console.WriteLine("This is a test");
+            Console.WriteLine("This is a test");
             Console.ReadLine();
         }
     }
