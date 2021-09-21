@@ -8,11 +8,11 @@ namespace TopInterviewQuestionsEasyCollection
         static void Main(string[] args)
         {
 
-            int[] nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3,3,3, 3, 4 };
-            var testInstance = new Array.Remove_Duplicates_from_Sorted_Array();
+            int[] nums = new int[] { -2,1,-3,4,-1,2,1,-5,4 };
+            var testInstance = new Array.MaximumSubArray();
 
 
-            testInstance.RemoveDuplicates(nums);
+            testInstance.MaxSubArray(nums);
             Console.ReadLine();
         }
     }
