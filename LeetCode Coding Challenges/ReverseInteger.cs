@@ -33,13 +33,13 @@ Output: 0*/
             StringBuilder sb = new StringBuilder();
             string str = x.ToString();
             string newStr;
+            int a;
 
             bool negativeNumber;
             if (str[0] == '-')
             {
                 negativeNumber = true;
                 str = str.Replace("-", "");
-
             }
             else {
                 negativeNumber = false;
@@ -63,19 +63,14 @@ Output: 0*/
 
             if (negativeNumber)
             {
-                Console.WriteLine(-Int32.Parse(newStr));
+                return -Int32.Parse(newStr);
 
             }
-            else {
-                Console.WriteLine(Int32.Parse(newStr));
+            else
+            {
+                return (int)uint.Parse(newStr);
 
             }
-
-           
-            Console.ReadLine();
-
-           
-            return 0;
         }
 
     }
