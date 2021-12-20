@@ -8,11 +8,12 @@ namespace LeetCode_Coding_Challenges
         static void Main(string[] args)
         {
 
-            var testInstance = new BinarySearch();
+            var testInstance = new SearchInsertPosition();
+
+            int[] nums = new int[] { 1, 3, 5, 6 };
+            testInstance.SearchInsert(nums, 4);
 
 
-            int [] nums = new int[] { -1, 0, 3, 5, 9, 12 };
-            testInstance.Search(nums, 3 );
 
 
         }
