@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode Coding Challenges", "LeetCode Coding Challenges\LeetCode Coding Challenges.csproj", "{9730AA48-30CA-44ED-B0DC-2729C618CA39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode Coding Challenges", "LeetCode Coding Challenges\LeetCode Coding Challenges.csproj", "{9730AA48-30CA-44ED-B0DC-2729C618CA39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopInterviewQuestionsEasyCollection", "TopInterviewQuestionsEasyCollection\TopInterviewQuestionsEasyCollection.csproj", "{37EC8118-4C63-4D8F-99B8-DDA9F9AC9B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopInterviewQuestionsEasyCollection", "TopInterviewQuestionsEasyCollection\TopInterviewQuestionsEasyCollection.csproj", "{37EC8118-4C63-4D8F-99B8-DDA9F9AC9B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms1", "Algorithms1\Algorithms1.csproj", "{8778A677-2672-4445-8EDE-775EEDC07E58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{37EC8118-4C63-4D8F-99B8-DDA9F9AC9B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37EC8118-4C63-4D8F-99B8-DDA9F9AC9B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37EC8118-4C63-4D8F-99B8-DDA9F9AC9B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8778A677-2672-4445-8EDE-775EEDC07E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8778A677-2672-4445-8EDE-775EEDC07E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8778A677-2672-4445-8EDE-775EEDC07E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8778A677-2672-4445-8EDE-775EEDC07E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
