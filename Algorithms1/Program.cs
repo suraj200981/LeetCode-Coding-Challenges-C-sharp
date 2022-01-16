@@ -6,10 +6,10 @@ namespace Algorithms1
     {
         static void Main(string[] args)
         {
-            var testInstance = new RotateArray();
+            var testInstance = new MoveZero();
 
-            int[] nums = new int[] { -1, -100, 3, 99 };
-            testInstance.Rotate(nums, 2);
+            int[] nums = new int[] { 0, 1, 0, 3, 12 };
+            testInstance.MoveZeroes(nums);
 
         }
     }
